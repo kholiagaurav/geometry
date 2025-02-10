@@ -1,0 +1,28 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap'); */
+
+#root{
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+}
+body{
+  margin:0;
+}
+
+
+.menu-button {
+  padding: 8px 16px;
+  cursor: pointer;
+  color: #fff;
+  background: #222;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  transition: background-color 0.2s ease;
+}
+
+.menu-button:hover {
+  background: #333;
+}
